@@ -1,67 +1,70 @@
-# PYP / Day - 21
+# Getting Started with Create React App
 
-Table of Contents :
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-1. [Prerequisites](#prerequisites)
-1. [Lessons topics](#lessons-topics)  
-1. [Assigment](#assigment)
-1. [Resources](#resources)
+## Available Scripts
 
----
-## Prerequisites
+In the project directory, you can run:
 
-Measures to take before starting
+### `npm start`
 
-* Install [VS Code](https://code.visualstudio.com/download) on your local machine
-* Setup [Github Desktop](https://desktop.github.com/) on your local machine
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
----
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-## Lessons topics:
+### `npm test`
 
-* React Testing
-    * What is testing? Why we test?
-    * Types of testing
-    * Jest
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
+### `npm run build`
 
-## Assigment:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Build a React App that shows current weather in given cities with different temperature units. You can see a demo of working result below:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-![React Weather App](./react-task-demo.gif)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Note: Get the data from [Open Weather Map](http://openweathermap.org) via API. You can find a API key in [`./api.text`](./api.text)
+### `npm run eject`
 
-Design and behavior:
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-* User types city name into the box
-* When the user hits enter, city name and temperature appears in the list below, with the active temperature unit
-* When user changes temperature unit, list updates consequently
-* User can remove any of the city from the list by clicking the "minus" icon in front of the city name
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Must have:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-* write unit tests using `jest.`
-* during unit testing, make sure the app's initial render works as intended
-* tests must cover every state changes (adding/removing city, temperature unit changes)
-* make sure you're mocking async calls
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
----
+## Learn More
 
-## Resources:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-* To read:
+### Code Splitting
 
-    - [Testing Overview – React](https://reactjs.org/docs/testing.html)
-    - [Guide to testing React Hooks](https://blog.logrocket.com/a-quick-guide-to-testing-react-hooks-fa584c415407/)
-    - [A Practical Guide To Testing React Applications With Jest — Smashing Magazine](https://www.smashingmagazine.com/2020/06/practical-guide-testing-react-applications-jest/)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
 
-* To watch:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-    - [React unit testing with Jest & React-testing-library](https://youtu.be/3e1GHCA3GP0)
-    - [Intro to React Testing](https://youtu.be/ZmVBCpefQe8)
+### Making a Progressive Web App
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
